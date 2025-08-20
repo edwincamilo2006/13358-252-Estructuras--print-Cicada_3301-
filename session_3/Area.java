@@ -2,12 +2,12 @@ public class AreasFiguras {
     public static void main(String[] args) {
         // Valores predefinidos
         double lado, radio, baseT, alturaT, baseR, alturaR;
-        lado = 5;
-        radio = 3;     // círculo
-        baseT = 6;     // triángulo
-        alturaT = 4;
-        baseR = 8;     // rectángulo
-        alturaR = 3;
+        lado = 5;      // Cuadrado
+        radio = 3;     // Círculo
+        baseT = 6;     // Triángulo
+        alturaT = 4;   // Triángulo
+        baseR = 8;     // Rectángulo
+        alturaR = 3;   // Rectángulo
 
         // Cálculos de áreas
         double areaCuadrado = lado * lado;
