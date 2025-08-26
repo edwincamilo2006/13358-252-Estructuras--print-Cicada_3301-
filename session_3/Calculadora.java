@@ -4,12 +4,12 @@ public class Calculadora {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int opcion = 0;  // variable para el menú
+        int opcion = 0;  // Menú Variable
         double num1, num2, resultado;
-        int continuar = 1; // 1 = seguir, 0 = salir
+        int continuar = 1; // 1 para seguir y 0 para salir
 
         while (continuar == 1) {
-            System.out.println("===== CALCULADORA =====");
+            System.out.println(" CALCULADORA ");
             System.out.println("1. Suma");
             System.out.println("2. Resta");
             System.out.println("3. Multiplicación");
@@ -47,7 +47,7 @@ public class Calculadora {
                 System.out.println("Opción no válida.");
             }
 
-            // Pequeño ciclo For para mostrar una línea separadora
+            // Ciclo For para mostrar una línea separadora
             for (int i = 0; i < 30; i++) {
                 System.out.print("-");
             }
