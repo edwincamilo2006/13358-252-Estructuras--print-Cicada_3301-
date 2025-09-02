@@ -25,8 +25,6 @@ public class Team {
 		this.payroll = payroll;
 	}
 
-
-	// ✅ Insertion Sort por estrellas
 	public final static void sortByStars(Team[] teams) {
 		int N = teams.length;
 		int i = 1;
